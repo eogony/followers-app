@@ -8,7 +8,7 @@ import { environment } from '../../environments/environment';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
-  
+
   backgroundColor = environment.navBarBackgroundColor;
   constructor() { }
 
